@@ -74,7 +74,7 @@ You can change these values and commands in **/sync/osc_control.js**
 
 `/audiousb`
 
-- Sets audio to use USB / or PiHat device. Sets also values to alsa:hw:1,0 
+- Sets audio to use USB / or PiHat device. Sets also values to alsa:hw:1,0
 
 
 
@@ -134,7 +134,7 @@ You can change these values and commands in **/sync/osc_control.js**
 
 `/pause`
 
-- Pauses current video
+- Pauses current video. (Note: I've had issues with this pausing the video for 6 minutes and auto starting again.)
 
 `/fastforward`
 
@@ -142,7 +142,7 @@ You can change these values and commands in **/sync/osc_control.js**
 
 `/stopvideo`
 
-- Stops current video only
+- Stops current video only. (/stopall is a better command if you want to stop everything.)
 
 `/startmaster`
 
@@ -280,11 +280,11 @@ You can change these values and commands in **/sync/osc_control.js**
 
 
 
-`/custom1`
+`/customfunction1`
 
 - Starts all Pi Cameras on default IP address, 192.168.1.101, 102, 103, ...., 107.  
 
-`/custom2`
+`/customfunction2`
 
 - Ready's all video players on default IP's 101, 102, 103, ...., 107.  for Master video to begin. Kills all other running processes
 
@@ -350,7 +350,7 @@ You can change these values and commands in **/sync/osc_control.js**
 
 `/tcpsserver`
 
-- (Re)start TCP Syphon Receiver 
+- (Re)start TCP Syphon Receiver
 
 
 
@@ -358,7 +358,7 @@ You can change these values and commands in **/sync/osc_control.js**
 
 `/ndireceiver`
 
-- Starts NDI Receiver 
+- Starts NDI Receiver
 
 `/ndisend`
 
